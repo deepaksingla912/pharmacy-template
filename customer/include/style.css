@@ -1,0 +1,495 @@
+html body{
+	/*background-color: #f2fff8;*/
+	margin: 0px;
+	padding: 0px;
+}
+
+/*----------------------------------------navbar--------------------------------------*/
+#profile1,#profile2{
+	display: none ;
+}
+.menu-nav{
+	background-color: #10847e;
+	height: 100px;
+}
+.navbar-brand{
+	color: white;
+	font-size: 40px;
+	font-family: MV BOLI;
+	margin: 20px 0px 0px 0px;
+	cursor: pointer;
+}
+.navbar-nav:hover li a{
+	background-color: transparent;
+	cursor: pointer;
+}
+.navbar-nav li img{
+	height: 16.4px;
+	width: 20px;
+	margin-right: 10px;
+}
+.navbar-nav li a span{
+	height: 16.4px;
+	width: 20px;
+	margin-right: 10px;
+}
+.navbar-menu li a{
+	margin-left: 5px;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.collapse-menu{
+	display: none;
+	background-color: #10847e;
+}
+.collapse-menu li{
+	display: none;
+}
+.collapse-menu li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.navbar-toggle {
+    float: right;
+    margin-top: 28px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    display: none;
+    margin-left: 400px;
+}
+
+/*--------------------------------------------carousel-------------------------------------*/
+.carousel-main{
+	margin-top: 120px;
+	height: 400px !important;
+
+}
+.item img{
+	height: 400px !important;
+	width: 100%;
+	border-style: inset;
+	padding: 5px;
+}
+
+/*--------------------------------------------search medicine-------------------------------------*/
+.search-main{
+	width: 60%;
+	margin-top: 15px;
+	padding: 30px 15px;
+	background-color: #10847e;
+	border-radius: 10px;
+	height: 200px;
+}
+.permanent-offers{
+	width: 100%;
+	margin-bottom: 25px;
+}
+.permanent-offers img{
+	margin-right: 10px;
+}
+.permanent-offers span{
+	color: white;
+	margin-right: 10px;
+}
+.search-main p{
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	margin-bottom: 25px;
+}
+.search-main form input{
+	font-size: 20px;
+	height: 40px;
+}
+.search-main form div{
+	height: 25.5px;
+}
+/*--------------------------------------------prescription-------------------------------------*/
+.orderOptions{
+	width: 35%;
+	float: right;
+	margin-top: -200px;
+}
+.prescriptionYes,.prescriptionNo{
+	width: 100%;
+	border: 1px solid #dfe3e6;
+	border-radius: 5px;
+}
+.prescriptionYes img,.prescriptionNo img{
+	width: 30px;
+	float: left;
+	margin: 10px 0px;
+}
+
+.prescriptionYes a,.prescriptionNo a{
+	width: 100%;
+	text-decoration: none;
+	color: #4f585e;
+	font-weight: bold;
+	font-size: 17px;
+	background-color: transparent;
+	border: 0px;
+}
+.prescriptionYes a:hover,.prescriptionNo a:hover{
+	background-color: transparent;
+}
+
+.prescriptionYes p,.prescriptionNo p{
+	margin: 15px 0px 15px 15px;
+	float: left;
+}
+.prescriptionYes span,.prescriptionNo span{
+	margin: 15px 15px 15px 0px;
+	float: right;
+}
+.prescriptionNo{
+	margin-top: 15px;
+}
+.call-btn{
+	height: 60px;
+	width: 100%;
+	background-color: #10847e;
+}
+.call-btn img{
+	height: 30px;
+	width: 30px;
+	float: left;
+	margin-right: 15px;
+}
+.call-btn span{
+	color: white;
+	float: left;
+	font-size: 16px;
+}
+/*--------------------------------------------offers-------------------------------------*/
+
+.offer1,.offer2,.offer3{
+	float: left;
+	width: 24%;
+	margin-right: 1%;
+	height: 70px;
+	border: 1px solid #dfe3e6;
+	border-radius: 10px;
+	padding: 10px;
+}
+.offer4{
+	float: left;
+	width: 24%;
+	height: 70px;
+	border: 1px solid #dfe3e6;
+	border-radius: 10px;
+	padding: 10px;
+}
+.offer1 img,.offer2 img,.offer3 img,.offer4 img{
+	height: 36px;
+	width: 36px;
+	float: left;
+	margin-right: 10px;
+}
+.offer1 p,.offer1 span,.offer2 p,.offer2 span,.offer3 p,.offer3 span,.offer4 p,.offer4 span{
+	float: left;
+	font-size: 15px;
+}
+.review{
+	width: 33%;
+	float: left;
+	padding: 10px;
+}
+.review p{
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+}
+.review span{
+	font-size: 16px;
+	font-weight: normal;
+}
+.review div{
+	font-size: 14px;
+	padding: 10px;
+	border-radius: 10px;
+	border: 2px solid #10847e;
+}
+.review div img{
+	float: left;
+	height: 20px;
+	width: 23px;
+}
+.reason1{
+	width: 28%;
+	margin-top: 10px;
+	margin-left: 8%;
+	padding: 10px;
+	float: left;
+}
+.reason2{
+	width: 28%;
+	margin-top: 10px;
+	padding: 10px;
+	float: left;
+}
+.reason3{
+	width: 28%;
+	margin-top: 10px;
+	margin-right: 8%;
+	padding: 10px;
+	float: left;
+}
+.reason1-image,.reason2-image,.reason3-image{
+	width: 100%;
+	height: 50px;
+}
+.reason1 img,.reason2 img,.reason3 img{
+	height: 50px;
+	width: 50px;
+	float: left;
+}
+.reason1 p,.reason2 p,.reason3 p{
+	font-weight: bold;
+	font-size: 16px;
+}
+.reason1 span,.reason2 span,.reason3 span{
+	font-size: 16px;
+	color: #8897A2;
+}
+.screen-logo{
+	margin-top: 40px;
+	width: 30%;
+	float: left;
+}
+.screen-logo img{
+	height: 418px;
+	width: 212px;
+}
+.download-options{
+	width: 70%;
+	float: left;
+	height: 418px;
+	margin-top: 40px;
+}
+.download-options span{
+	font-size: 25px;
+}
+.btn-ps,.btn-as{
+	margin-top: 40px;
+	background-color: #4B4B4B;
+	padding: 10px 15px;
+	color: white;
+	font-size: 15px;
+	float: left;
+}
+.btn-ps:hover,.btn-as:hover{
+	color: white;
+}
+.btn-ps img,.btn-as img{
+	height: 25px;
+	width: 25px;
+	margin-right: 10px;
+}
+.btn-as{
+	margin-left: 20px;
+}
+.footer{
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	height: 150px;
+}
+.privacy,.follow{
+	width: 50%;
+	height: 100%;
+}
+.privacy,.follow{
+	background-color: #F4F7FB;
+	float: left;
+}
+.privacy-menu{
+	float: right;
+	padding: 20px;
+}
+.privacy-menu span{
+	line-height: 50px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.privacy-menu a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #4f585e;
+	line-height: 25px;
+}
+.privacy-menu:hover a{
+	color:  #4f585e;
+}
+.follow-menu{
+	float: left;
+	padding: 20px;
+}
+.follow-menu span{
+	line-height: 50px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.follow-menu a{
+	text-decoration: none;
+	line-height: 25px;
+	margin-right: 10px;
+}
+.privacy-menu a img{
+	height: 25px;
+	width: 25px;
+	margin-right: 25px;
+}
+.copyright{
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	height: 110px;
+	background-color: #F4F7FB;
+	margin-top: 150px;
+}
+.copyright p{
+	text-align: center;
+	color:  #4f585e;
+	font-size: 15px;
+	line-height: 100px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1202px) {
+	.offer1,.offer2,.offer3,.offer4{
+	height: 110px;
+}
+}
+@media only screen and (max-width: 996px) {
+	.carousel-main{
+	height: 300px !important;
+}
+.search-main{
+	width: 100%;
+}
+ .item img{
+	height: 300px !important;
+	width: 100%;
+}
+.orderOptions{
+	width: 100%;
+	margin-top: 20px;
+}
+.prescriptionYes,.prescriptionNo{
+	width: 48%;
+}
+.prescriptionYes{
+	float: left;
+}
+.prescriptionNo{
+	margin-top: 0px;
+	float: right;
+}
+.offer1,.offer2,.offer3,.offer4{
+	height: 130px;
+}
+.screen-logo,.download-options{
+	width: 50%;
+}
+}
+@media only screen and (max-width: 768px) {
+ 
+  .navbar-menu{
+  	display: none;
+  }
+  .collapse-menu{
+  	display: none;
+  }
+  .collapse-menu li{
+	display: block;
+}
+  .navbar-toggle{
+  	display: block;
+  }
+  .navbar-toggle span{
+  	background-color: white;
+  }
+  .review{
+  	width: 100%;
+  }
+
+}
+@media only screen and (max-width: 766px) {
+  .navbar-toggle{
+  	margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 706px) {
+	 .btn-ps{
+		margin-right: 20px;
+	}
+	  .btn-as{
+		margin-left: 0px;
+	}
+}
+@media only screen and (max-width: 670px) {
+  .prescriptionYes,.prescriptionNo{
+	width: 100%;
+}
+.prescriptionYes{
+	float: left;
+}
+.prescriptionNo{
+	margin-top: 10px;
+	float: left;
+}
+.offer1,.offer2,.offer3,.offer4{
+	width: 49%;
+	height: 70px;
+}
+.offer3,.offer4{
+	margin-top: 20px;
+}
+}
+
+@media only screen and (max-width: 623px) {
+	.offer2{
+	margin-top: 20px;
+}
+  .offer1,.offer2,.offer3,.offer4{
+  	width: 100%;
+	height: 70px;
+	margin-right: 0px;
+}
+}
+@media only screen and (max-width: 600px) {
+  .carousel-main{
+	height: 200px !important;
+}
+ .item img{
+	height: 200px !important;
+	width: 100%;
+}
+.reason1{
+	width: 100%;
+	margin-left: 0px;
+}
+.reason2{
+	width: 100%;
+}
+.reason3{
+	width: 100%;
+	margin-right: 0px;
+}
+}
+
